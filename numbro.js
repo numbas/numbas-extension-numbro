@@ -543,7 +543,7 @@ Numbas.addExtension('numbro',['math','jme'],function(extension) {
     scope.addFunction(new funcObj('formatCurrency',[TNum,TString],TString,function(n,format) {
         return numbro(n).formatCurrency(format);
     }));
-    scope.addFunction(new funcObj('formatCurrency',[TNum,TString,TString],TString,function(n,symbol,format) {
+    scope.addFunction(new funcObj('formatCurrency',[TNum,TString,TString],TString,function(n,format,symbol) {
         return numbro(n).formatForeignCurrency(symbol,format);
     }));
 
