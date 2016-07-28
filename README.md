@@ -8,6 +8,8 @@ At the moment, numbro keeps the language setting in a global variable, which mak
 
 To set the language/culture for a question, call `numbro.culture` in the question preamble, e.g. `numbro.culture('nb-NO')`.
 
+There's a question showing how to use this extension at https://numbas.mathcentre.ac.uk/question/15000/format-numbers-and-currency-amounts-with-numbro-js/
+
 ## JME functions
 
 ### `format(n,format)`
