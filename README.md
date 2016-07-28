@@ -14,13 +14,19 @@ To set the language/culture for a question, call `numbro.culture` in the questio
 
 Format the number `n` following the given format.
 
+**Example**: `format(1234.5,'0,0.00')` → `"1,234.50"`
+
 ### `formatcurrency(n,format)`
 
 Format `n` as a currency amount, following the given format.
 
+**Example**: `formatcurrency(12345,'0a')` → `$12k` (when the language is the default value, `en-US`)
+
 ### `formatcurrency(n,format,currencySymbol)`
 
 Format `n` as a currency amount, following the given format and with the given currency symbol.
+
+**Example**: `formatcurrency(12345,'0a','£')`  → `£12k`
 
 # Licence
 
